@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Tailwindcss</title>
+    <link rel="stylesheet" href="public/css/all.min.css">
+    <link rel="stylesheet" href="output/tailwind.css">
+</head>
+<body>
+    <!-- header section -->
+    <header id="home">
+        <!-- navbar -->
+        <nav class="bg-gray-950 dark:bg-white">
+            <div class="container
+            sm:container sm:px-10
+             mx-auto p-5 flex justify-between">
+                <div class="brand">
+                    <h1 class="
+                    text-white dark:text-gray-900 text-2xl
+                    font-bold tracking-wide">Emon</h1>
+                </div>
+                <ul class="flex space-x-5">
+                    <li><a href="#" class="text-white dark:text-gray-900">Projects</a></li>
+                    <li><a href="#" class="text-white dark:text-gray-900">Blogs</a></li>
+                    <li><a href="#" class="text-white dark:text-gray-900">Tools</a></li>
+                    <li id="theme-toggle" class="
+                        ring-2 ring-gray-800 rounded pt-1.5  px-2 pb-0
+                    "><a href="#" class="text-white dark:text-gray-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
+                            <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 0 1 .162.819A8.97 8.97 0 0 0 9 6a9 9 0 0 0 9 9 8.97 8.97 0 0 0 3.463-.69.75.75 0 0 1 .981.98 10.503 10.503 0 0 1-9.694 6.46c-5.799 0-10.5-4.7-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 0 1 .818.162Z" clip-rule="evenodd" />
+                          </svg>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- main contents for home page  -->
+    <main class="
+        bg-gray-950
+        min-h-screen space-y-4
+        dark:bg-white
+    ">
+        <!-- hero section -->
+        <section id="hero">
+            <div class="container mx-auto p-5 sm:container sm:px-10">
+                <div class="hero-wrapper flex flex-col items-center justify-center">
+                    <div class="space-y-5 flex items-center flex-col">
+                        <img class="
+                        text-center 
+                        rounded-full w-32 overflow-hidden ring-4 ring-gray-800
+                        " src="public/images/emon.png" alt="">
+                        <div class="hero-contents ">
+                            <h2 class=" mb-5
+                                text-white dark:text-gray-900 text-center
+                            ">Programmer | Problem Solver | Full-Stack Developer</h2>
+                            <p class="text-white
+                            dark:text-gray-900
+                            text-xl font-semibold
+                            text-center sm:w-2/3 lg:w-2/3 sm:mx-auto sm:text-2xl">
+                                I am Emon. I am a Programmer, Problem Solver, and Full-Stack Developer with 2 years of experience. And I enjoy building for the web. I currently working on PHP & Laravel.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="buttons mt-5 flex flex-col items-center">
+                        <a href="mailto:ahmedemon.dev24@gmail.com" class="text-white dark:text-gray-900
+                        ring-2  ring-gray-800 rounded-full 
+                        px-4 sm:px-6 sm:space-x-4 py-2 mx-auto
+                        hover:ring-gray-600  space-x-2
+                        ">
+                        <span class="mr-2">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        Contact Via Email</a>
+                        <div class="mt-5 flex space-x-3">
+                            <a href="#" class="text-white
+                            dark:text-gray-900
+                            flex items-center  mx-auto
+                            ">
+                              <span class="mr-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                  </svg>
+                              </span>
+                              <span>Dhaka, Bangladesh.</span>
+                            </a>
+                            <a href="#" class="text-white
+                            flex items-center  mx-auto
+                            dark:text-gray-900
+                            ">
+                              <span class="mr-2">
+                                <i class="fa-brands fa-linkedin"></i>
+                              </span>
+                              <span>Connect To Linkedin</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section  -->
+         <section id="about">
+            <div class="container
+            mx-auto p-5 sm:containr sm:px-10
+            ">
+                <div class="about-wrapper sm:flex
+                w-full
+                sm:justify-between
+                ">
+                    <div class="section-title w-full sm:w-1/5 mb-5">
+                        <h1 class="text-white dark:text-gray-900 text-3xl text-left font-bold">About</h1>
+                    </div>
+                    <p class="text-gray-400
+                    text-lg dark:text-gray-900
+                    text-justify sm:w-1/2 md:w-1/2 lg:w-1/2 sm:mx-auto ">
+                        I am Emon. I am a Programmer, Problem Solver, and Full-Stack Developer with 2 years of experience. And I enjoy building for the web. I currently working on PHP & Laravel.
+                    </p>
+            </div>
+         </section>
+
+        <!-- Blogs section  -->
+        <section id="blogs">
+            <div class="container
+            mx-auto p-5 sm:containr sm:px-10">
+                <div class="flex flex-col sm:flex-row sm:justify-between">
+                    <h1 class="text-white
+                    sm:w-1/5  w-full
+                     mb-5 dark:text-gray-900 text-3xl font-bold text-left">Posts</h1>
+                    <div class="w-full sm:w-1/2 sm:mx-auto">
+                        <div class="md:flex md:flex-row md:justify-between md:w-full">
+                            <p class="text-gray-400 dark:text-gray-800 sm:w-1/3">Sep 5, 2022</p>
+                            <p class="">
+                                <a href="#" class="
+                                    dark:text-gray-900
+                                    text-gray-100 hover:underline hover:underline-offset-2
+                                ">How to upload  adfadfadadfadfadfdf a adfadfa fadf afa dfa fdyour laravel website in cPanel.</a>
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="view_more mt-5 flex justify-end">
+                    <a href="#" class="
+                        dark:text-gray-900 px-5 py-2 hover:ring-gray-600
+                        text-gray-100 ring-1 ring-gray-900 rounded-full
+                    ">View More <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>    
+
+        <!-- experience section  -->
+        <section id="experiences">
+            <div class="container sm:container lg:container xl:container mx-auto p-5">
+                <div class="experience_wrapper text-white
+                md:flex md:flex-row md:justify-between md:w-full
+                ">
+                    <h1 class="
+                    text-3xl font-bold mb-5
+                    md:w-1/5 text-left w-full
+                    ">Experiences</h1>
+                    <div class="md:flex md:flex-row md:justify-between  md:w-4/5 p-2 md:ring-0 ring-2 ring-gray-900 rounded-xl">
+                        <div class="w-20 pl-4 md:w-16 md:ml-16 md:float-right ">
+                            <img class="max-w-full" src="public/images/logo/kaizen-logo.png" alt="">
+                        </div>
+                        <div  class="
+                        md:ring-2 md:flex md:flex-row md:justify-between md:w-4/5 
+                         ring-gray-900 rounded-xl 
+                        ">
+                            
+                            <div class="
+                            md:ring-0 md:ring-gray-900 p-4
+                            rounded-xl 
+                            ">
+                                <div class="mb-4">
+                                    <h1 class="
+                                    mb-2
+                                    font-semibold text-xl
+                                    ">
+                                        Full-Stack Web Developer @Kaizenit Ltd.
+                                        <p class="text-gray-400 font-normal
+                                        text-sm">
+                                            <span class="text-gray-400">Sep 5, 2022</span> - <span class="text-gray-400">Present</span>
+                                        </p>
+                                    </h1>
+                                    <p class="
+                                    text-gray-400 text-md
+                                    ">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error facilis totam cum odio cumque quae cupiditate enim rerum consectetur, corporis dolore nulla ullam molestias tenetur iusto minima. Vero, officia consectetur.
+                                    </p>
+                                </div>
+                                <div class="projects ring-1 ring-gray-900 rounded-xl p-4">
+                                    <a href="#" class="
+                                    hover:underline hover:underline-offset-2
+                                    text-lg font-semibold mb-1
+                                    italic
+                                    ">Project Name</a>
+                                    <ul class="list-inside pl-3 
+                                    text-gray-400
+                                    list-disc">
+                                        <li>Feature 1</li>
+                                        <li>Feature 2</li>
+                                        <li>Feature 3</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- projects section  -->
+        <section id="projects">
+            <div class="container sm:container lg:container xl:container mx-auto p-5">
+                <div class="experience_wrapper text-white
+                md:flex md:flex-row md:justify-between md:w-full
+                ">
+                    <h1 class="
+                    text-3xl font-bold mb-5
+                    md:w-1/5 text-left w-full
+                    ">Projects</h1>
+                    <div class="md:flex md:flex-row cursor-pointer md:justify-between  md:w-4/5 p-2 md:ring-0 ring-2 ring-gray-900 hover:ring-gray-600 rounded-xl">
+                        <div class="w-20 pl-4 md:w-16 md:ml-16 md:float-right ">
+                            <img class="max-w-full" src="public/images/logo/kaizen-logo.png" alt="">
+                        </div>
+                        <div  class="
+                        md:ring-2 md:flex md:flex-row md:justify-between md:w-4/5 
+                         ring-gray-900 rounded-xl 
+                         hover:ring-gray-600
+                        ">
+                            
+                            <div class="
+                            md:ring-0 md:ring-gray-900 p-4
+                            rounded-xl md:hover:ring-gray-400
+                            ">
+                                <div class="mb-4">
+                                    <h1 class="
+                                    mb-2 italic
+                                    font-semibold text-xl
+                                    ">
+                                        Kazilawchamber.com
+                                    </h1>
+                                    <p class="
+                                    text-gray-400 text-md
+                                    ">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error facilis totam cum odio cumque quae cupiditate enim rerum consectetur, corporis dolore nulla ullam molestias tenetur iusto minima. Vero, officia consectetur.
+                                    </p>
+                                </div>
+                                <div class="projects flex 
+                                flex-wrap gap-4
+                                ">
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    PHP
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Laravel
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Javascript
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Jquery
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Bootstrap
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Tailwind
+                                   </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:flex md:flex-row cursor-pointer md:justify-between  md:w-4/5 p-2 md:ring-0 ring-2 ring-gray-900 hover:ring-gray-600 rounded-xl">
+                        <div class="w-20 pl-4 md:w-16 md:ml-16 md:float-right ">
+                            <img class="max-w-full" src="public/images/logo/kaizen-logo.png" alt="">
+                        </div>
+                        <div  class="
+                        md:ring-2 md:flex md:flex-row md:justify-between md:w-4/5 
+                         ring-gray-900 rounded-xl 
+                         hover:ring-gray-600
+                        ">
+                            
+                            <div class="
+                            md:ring-0 md:ring-gray-900 p-4
+                            rounded-xl md:hover:ring-gray-400
+                            ">
+                                <div class="mb-4">
+                                    <h1 class="
+                                    mb-2 italic
+                                    font-semibold text-xl
+                                    ">
+                                        Kazilawchamber.com
+                                    </h1>
+                                    <p class="
+                                    text-gray-400 text-md
+                                    ">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error facilis totam cum odio cumque quae cupiditate enim rerum consectetur, corporis dolore nulla ullam molestias tenetur iusto minima. Vero, officia consectetur.
+                                    </p>
+                                </div>
+                                <div class="projects flex 
+                                flex-wrap gap-4
+                                ">
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    PHP
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Laravel
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Javascript
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Jquery
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Bootstrap
+                                   </p>
+                                   <p class="text-sm
+                                   ring-1 ring-gray-900 rounded-xl 
+                                   px-4 py-1 
+                                   ">
+                                    Tailwind
+                                   </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="public/js/all.min.js"></script>
+<script src="public/js/app.js"></script>
+</body>
+</html>
